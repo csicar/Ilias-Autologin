@@ -15,6 +15,8 @@
     }
   }
 
+  setTimeout(checkIfIsCorrect, 100);
+
   nameInput.addEventListener('change', function() {
     checkIfIsCorrect();
   })
