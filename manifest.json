@@ -3,7 +3,7 @@
 
   "name": "Ilias-Autologin",
   "description": "will automatically log you into ILIAS",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "https://ilias.studium.kit.edu/**",
     "https://idp.scc.kit.edu/**"
