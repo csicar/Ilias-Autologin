@@ -5,7 +5,8 @@
   "description": "will automatically log you into ILIAS",
   "version": "1.0",
   "permissions": [
-    "tabs"
+    "https://ilias.studium.kit.edu/**",
+    "https://idp.scc.kit.edu/**"
   ],
   "content_scripts": [{
         "matches": ["https://ilias.studium.kit.edu/login.php**"],
