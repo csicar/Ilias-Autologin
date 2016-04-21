@@ -8,20 +8,25 @@
     //out of luck
     return;
   }
-
+  submitButton.onautocomplete = function() {
+    console.log(1);
+  }
   function checkIfIsCorrect() {
-    if(nameInput.value.length == 5 && passwdInput.value != '') {
-      submitButton.click();
+    if(nameInput.value.length == 5) {
+        console.log(nameInput, passwdInput.value);
+        submitButton.click();
+    }else {
+	   setTimeout(checkIfIsCorrect, 1000);
     }
   }
 
-  setTimeout(checkIfIsCorrect, 100);
-
   nameInput.addEventListener('change', function() {
+    console.log("change1")
     checkIfIsCorrect();
   })
 
   passwdInput.addEventListener('change', function() {
+    console.log("change2")
     checkIfIsCorrect();
   })
 
