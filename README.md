@@ -1,10 +1,15 @@
 Ilias Autologin
 ===============
 
-This Chrome extension makes using the Ilias-Platform easier by making the login procedure easier.
+This Web extension makes using the Ilias-Platform easier by making the login procedure easier.
+You can use it with Chrome and now also Firefox.
 
 Installation
 ------------
+
+### Firefox Add-ons
+
+You can just install the extension from the [firefox Add-On registry](https://addons.mozilla.org/en-US/firefox/addon/ilias-autologin/)
 
 ### Chrome-Webstore
 
@@ -15,8 +20,19 @@ The easiest way to install the extension, is to download it from the Chrome webs
 
 download the crx file and open it with Google Chrome / Chromium. You will be prompted to accept the permissions; accept them and install the extension.
 
+
 ### From source (for development)
 
+#### in Firefox
+1. Download the Repository: either do:
+`git clone https://github.com/csicar/Ilias-Autologin Ilias-Autologin`
+or click on the **download**-Button
+2. Open Firefoxes [debugging page](about:debugging)
+3. Click on enable add-on debugging
+4. Click on `Load temporary Add-on`
+5. select the `loginSelect.js` file
+
+#### in Chrome
 1. Download the Repository: either do:
 `git clone https://github.com/csicar/Ilias-Autologin Ilias-Autologin`
 or click on the **download**-Button
