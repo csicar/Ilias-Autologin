@@ -2,7 +2,7 @@ Ilias Autologin
 ===============
 
 This Web extension makes using the Ilias-Platform easier by making the login procedure easier.
-You can use it with Chrome and now also Firefox.
+You can use it with Chrome and now also Firefox and Firefox for Android!
 
 Installation
 ------------
