@@ -1,4 +1,4 @@
 (function(){
-  var login = document.querySelector('input[value="Mit KIT-Account anmelden"]');
+  var login = document.querySelector('button[id="button_shib_login"]');
   login.click();
 }())
